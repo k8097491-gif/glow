@@ -19,10 +19,17 @@
     <div class="site-shell">
       <header class="site-header">
         <a class="site-brand" href="#top" aria-label="Рядом, на главную">
-          <svg class="brand-route" viewBox="0 0 42 42" fill="none" aria-hidden="true"><path d="M8 30.5C13.5 30.5 13.5 12 21 12s7.5 18.5 13 18.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-dasharray="1 5" /><circle cx="8" cy="30.5" r="4" fill="#eef1eb" stroke="currentColor" stroke-width="2" /><circle cx="34" cy="30.5" r="4" fill="#d2ad57" stroke="currentColor" stroke-width="2" /></svg>
+          <svg class="brand-route" viewBox="0 0 42 42" fill="none" aria-hidden="true">
+            <path d="M8 30.5C13.5 30.5 13.5 12 21 12s7.5 18.5 13 18.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-dasharray="1 5" />
+            <circle cx="8" cy="30.5" r="4" fill="#eef1eb" stroke="currentColor" stroke-width="2" />
+            <circle cx="34" cy="30.5" r="4" fill="#d2ad57" stroke="currentColor" stroke-width="2" />
+          </svg>
           <span>рядом</span>
         </a>
-        <nav class="site-nav" aria-label="Навигация по странице"><a href="#how-it-works">Как работает</a><a href="#map">Карта Петропавла</a></nav>
+        <nav class="site-nav" aria-label="Навигация по странице">
+          <a href="#how-it-works">Как работает</a>
+          <a href="#map">Карта Петропавла</a>
+        </nav>
         <a class="header-link" href="#map">Открыть карту <svg viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2.5 9.5 9.5 2.5M3.5 2.5h6v6" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" /></svg></a>
       </header>
 
@@ -31,25 +38,42 @@
           <div class="hero-copy">
             <h1 id="hero-title">Нужное из города.<br /><span>Ближе к дому.</span></h1>
             <p>«Рядом» объединяет заказы из районного центра и доставляет их в небольшие сёла по расписанию.</p>
-            <div class="hero-actions"><a class="button button-dark" href="#how-it-works">Как это работает <svg viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M6 1.5v9m0 0 3.5-3.5M6 10.5 2.5 7" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" /></svg></a><a class="text-link" href="#map">Посмотреть карту Петропавла</a></div>
+            <div class="hero-actions">
+              <a class="button button-dark" href="#how-it-works">Как это работает <svg viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M6 1.5v9m0 0 3.5-3.5M6 10.5 2.5 7" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" /></svg></a>
+              <a class="text-link" href="#map">Посмотреть карту Петропавла</a>
+            </div>
           </div>
           <div class="route-illustration" aria-label="Путь заказа из районного центра к местной точке выдачи">
             <span class="route-label route-label-start">Районный центр</span>
             <svg class="route-drawing" viewBox="0 0 560 300" fill="none" role="img" aria-labelledby="route-svg-title route-svg-desc">
-              <title id="route-svg-title">Путь заказа</title><desc id="route-svg-desc">Линия соединяет районный центр и точку выдачи в селе.</desc>
+              <title id="route-svg-title">Путь заказа</title>
+              <desc id="route-svg-desc">Линия соединяет районный центр и точку выдачи в селе.</desc>
               <path d="M46 229C104 229 101 116 189 116c95 0 91 116 184 116 73 0 58-143 141-143" stroke="#6a796b" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 13" />
-              <circle cx="46" cy="229" r="12" fill="#eef1eb" stroke="#334d3a" stroke-width="2" /><circle cx="46" cy="229" r="4" fill="#334d3a" />
-              <circle cx="514" cy="89" r="12" fill="#eef1eb" stroke="#334d3a" stroke-width="2" /><circle cx="514" cy="89" r="4" fill="#d2ad57" />
-              <g transform="translate(255 44) rotate(2 25 25)"><rect x="2" y="2" width="48" height="48" rx="5" fill="#d2ad57" stroke="#334d3a" stroke-width="2" /><path d="M2 16h48M26 2v48M2 16l24 13 24-13" stroke="#334d3a" stroke-width="1.5" /></g>
+              <circle cx="46" cy="229" r="12" fill="#eef1eb" stroke="#334d3a" stroke-width="2" />
+              <circle cx="46" cy="229" r="4" fill="#334d3a" />
+              <circle cx="514" cy="89" r="12" fill="#eef1eb" stroke="#334d3a" stroke-width="2" />
+              <circle cx="514" cy="89" r="4" fill="#d2ad57" />
+              <g transform="translate(255 44) rotate(2 25 25)">
+                <rect x="2" y="2" width="48" height="48" rx="5" fill="#d2ad57" stroke="#334d3a" stroke-width="2" />
+                <path d="M2 16h48M26 2v48M2 16l24 13 24-13" stroke="#334d3a" stroke-width="1.5" />
+              </g>
             </svg>
-            <span class="route-label route-label-end">Местная точка выдачи</span><span class="route-caption">Один общий путь для заказов</span>
+            <span class="route-label route-label-end">Местная точка выдачи</span>
+            <span class="route-caption">Один общий путь для заказов</span>
           </div>
         </section>
 
-        <section class="service-line" aria-label="Принципы доставки"><p>Заказы объединяются</p><span aria-hidden="true"></span><p>Доставка идёт по расписанию</p><span aria-hidden="true"></span><p>Выдача в местной точке</p></section>
+        <section class="service-line" aria-label="Принципы доставки">
+          <p>Заказы объединяются</p><span aria-hidden="true"></span>
+          <p>Доставка идёт по расписанию</p><span aria-hidden="true"></span>
+          <p>Выдача в местной точке</p>
+        </section>
 
         <section class="process-section" id="how-it-works" aria-labelledby="process-title">
-          <div class="section-intro"><h2 id="process-title">От заказа до выдачи</h2><p>Понятный путь, который помогает получать нужное рядом с домом.</p></div>
+          <div class="section-intro">
+            <h2 id="process-title">От заказа до выдачи</h2>
+            <p>Понятный путь, который помогает получать нужное рядом с домом.</p>
+          </div>
           <ol class="process-list">
             <li><span class="step-mark" aria-hidden="true">01</span><div><h3>Объединяют заказы</h3><p>Жители небольших сёл собирают покупки из районного центра вместе.</p></div></li>
             <li><span class="step-mark" aria-hidden="true">02</span><div><h3>Доставляют по графику</h3><p>Общий заказ отправляется в сёла по расписанию.</p></div></li>
@@ -58,38 +82,95 @@
         </section>
 
         <section class="map-section" id="map" aria-labelledby="map-section-title">
-          <div class="map-section-heading"><div><h2 id="map-section-title">Петропавл на карте</h2><p>Открытые геоданные города в интерактивном 3D-глобусе.</p></div><span class="map-section-index">54°53′ с. ш. <i aria-hidden="true"></i> 69°09′ в. д.</span></div>
+          <div class="map-section-heading">
+            <div><h2 id="map-section-title">Петропавл на карте</h2><p>Открытые геоданные города в интерактивном 3D-глобусе.</p></div>
+            <span class="map-section-index">54°53′ с. ш. <i aria-hidden="true"></i> 69°09′ в. д.</span>
+          </div>
+
           <div class="map-app app-shell" id="app">
             <div class="map-toolbar">
               <div class="map-context"><span class="map-context-mark" aria-hidden="true"></span><span>Карта города</span></div>
-              <form class="search" id="place-search" role="search"><label class="visually-hidden" for="search-input">Найти место или адрес в Казахстане</label><span class="search-lens" aria-hidden="true"></span><input id="search-input" name="q" type="search" role="combobox" placeholder="Улица, адрес или место" autocomplete="off" aria-autocomplete="list" aria-controls="search-results" aria-expanded="false" /><button class="search-submit" type="submit">Найти</button><div class="search-results" id="search-results" role="listbox" aria-label="Результаты поиска" hidden></div></form>
+              <form class="search" id="place-search" role="search">
+                <label class="visually-hidden" for="search-input">Найти место или адрес в Казахстане</label>
+                <span class="search-lens" aria-hidden="true"></span>
+                <input id="search-input" name="q" type="search" role="combobox" placeholder="Улица, адрес или место" autocomplete="off" aria-autocomplete="list" aria-controls="search-results" aria-expanded="false" />
+                <button class="search-submit" type="submit">Найти</button>
+                <div class="search-results" id="search-results" role="listbox" aria-label="Результаты поиска" hidden></div>
+              </form>
               <div class="connection-state" id="connection-state" role="status" aria-live="polite"><span class="connection-dot" aria-hidden="true"></span><span id="connection-label">Подключаем глобус</span></div>
             </div>
-            <nav class="view-nav" aria-label="Быстрый переход по карте"><button type="button" data-view="earth">Земля</button><span aria-hidden="true">/</span><button type="button" data-view="kazakhstan">Казахстан</button><span aria-hidden="true">/</span><button type="button" data-view="region">Северо-Казахстанская область</button><span aria-hidden="true">/</span><button type="button" data-view="petropavl" aria-current="page">Петропавл</button><button type="button" id="route-toggle" aria-expanded="false" aria-controls="route-panel">Маршрут</button></nav>
+
+            <nav class="view-nav" aria-label="Быстрый переход по карте">
+              <button type="button" data-view="earth">Земля</button><span aria-hidden="true">/</span>
+              <button type="button" data-view="kazakhstan">Казахстан</button><span aria-hidden="true">/</span>
+              <button type="button" data-view="region">Северо-Казахстанская область</button><span aria-hidden="true">/</span>
+              <button type="button" data-view="petropavl" aria-current="page">Петропавл</button>
+              <button type="button" id="route-toggle" aria-expanded="false" aria-controls="route-panel">Маршрут</button>
+            </nav>
+
             <div class="map-board">
               <div class="globe-stage">
-                <div class="globe" id="globe" role="region" aria-label="Интерактивная 3D-карта Петропавла"></div><div class="globe-tint" aria-hidden="true"></div>
-                <section class="feature-panel panel" id="feature-panel" aria-labelledby="feature-title" hidden><button class="feature-close" id="feature-close" type="button">Закрыть</button><span class="field-label" id="feature-kind">Объект карты</span><h2 id="feature-title">Сведения</h2><dl class="feature-details" id="feature-details"></dl></section>
+                <div class="globe" id="globe" role="region" aria-label="Интерактивная 3D-карта Петропавла"></div>
+                <div class="globe-tint" aria-hidden="true"></div>
+                <section class="feature-panel panel" id="feature-panel" aria-labelledby="feature-title" hidden>
+                  <button class="feature-close" id="feature-close" type="button">Закрыть</button>
+                  <span class="field-label" id="feature-kind">Объект карты</span><h2 id="feature-title">Сведения</h2>
+                  <dl class="feature-details" id="feature-details"></dl>
+                </section>
                 <aside class="route-panel panel" id="route-panel" aria-labelledby="route-title" hidden>
                   <div class="route-heading"><div><span class="field-label">По дорожной сети OSM</span><h2 id="route-title">Маршрут</h2></div><button class="feature-close" id="route-close" type="button">Свернуть</button></div>
-                  <div class="route-points"><div class="route-point"><span class="route-point-mark route-point-start" aria-hidden="true">A</span><span class="route-point-copy"><small>Начало</small><strong id="route-from-label">Не выбрано</strong></span><button type="button" data-route-pick="origin" aria-label="Указать точку отправления">Указать</button></div><div class="route-point"><span class="route-point-mark route-point-end" aria-hidden="true">B</span><span class="route-point-copy"><small>Финиш</small><strong id="route-to-label">Не выбрано</strong></span><button type="button" data-route-pick="destination" aria-label="Указать точку назначения">Указать</button></div></div>
-                  <label class="route-mode-label" for="route-mode">Способ передвижения</label><select id="route-mode" class="route-mode"><option value="car">Автомобиль</option><option value="foot">Пешком</option><option value="bike">Велосипед</option></select>
-                  <button class="route-submit" id="route-build" type="button" disabled>Построить маршрут</button><div class="route-result" id="route-result" hidden><strong id="route-distance"></strong><span id="route-duration"></span></div><button class="route-reset" id="route-reset" type="button">Очистить точки</button><p class="route-status" id="route-status" role="status" aria-live="polite">Выберите начало и финиш на карте.</p><p class="route-source">Расчёт OSRM по данным OpenStreetMap; время без текущих пробок. Координаты передаются серверу маршрутизации.</p>
+                  <div class="route-points">
+                    <div class="route-point"><span class="route-point-mark route-point-start" aria-hidden="true">A</span><span class="route-point-copy"><small>Начало</small><strong id="route-from-label">Не выбрано</strong></span><button type="button" data-route-pick="origin" aria-label="Указать точку отправления">Указать</button></div>
+                    <div class="route-point"><span class="route-point-mark route-point-end" aria-hidden="true">B</span><span class="route-point-copy"><small>Финиш</small><strong id="route-to-label">Не выбрано</strong></span><button type="button" data-route-pick="destination" aria-label="Указать точку назначения">Указать</button></div>
+                  </div>
+                  <label class="route-mode-label" for="route-mode">Способ передвижения</label>
+                  <select id="route-mode" class="route-mode"><option value="car">Автомобиль</option><option value="foot">Пешком</option><option value="bike">Велосипед</option></select>
+                  <button class="route-submit" id="route-build" type="button" disabled>Построить маршрут</button>
+                  <div class="route-result" id="route-result" hidden><strong id="route-distance"></strong><span id="route-duration"></span></div>
+                  <button class="route-reset" id="route-reset" type="button">Очистить точки</button>
+                  <p class="route-status" id="route-status" role="status" aria-live="polite">Выберите начало и финиш на карте.</p>
+                  <p class="route-source">Расчёт OSRM по данным OpenStreetMap; время без текущих пробок. Координаты передаются серверу маршрутизации.</p>
                 </aside>
-                <div class="map-controls" role="group" aria-label="Управление картой"><button type="button" id="zoom-in" aria-label="Приблизить карту">+</button><button type="button" id="zoom-out" aria-label="Отдалить карту">−</button><span class="control-rule" aria-hidden="true"></span><button type="button" class="north-button" id="north-up" aria-label="Сориентировать карту на север"><span>N</span></button><button type="button" id="toggle-mode" class="mode-button" aria-pressed="false">2D</button></div>
-                <footer class="map-footer"><div class="cursor-readout"><span class="field-label">Координаты курсора</span><span id="cursor-coordinates">Наведите на глобус</span></div><div class="map-attribution"><a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">© OpenStreetMap contributors</a><span>·</span><a href="https://cesium.com/platform/cesiumjs/" target="_blank" rel="noopener noreferrer">CesiumJS</a><span>· маршруты OSRM</span></div><div id="cesium-credits" role="region" aria-label="Атрибуция Cesium и данных карты"></div></footer>
-                <div class="loading-state" id="loading-state" role="status" aria-live="polite"><span class="loading-rule" aria-hidden="true"></span><span id="loading-copy">Загружаем 3D-глобус</span></div><div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+                <div class="map-controls" role="group" aria-label="Управление картой">
+                  <button type="button" id="zoom-in" aria-label="Приблизить карту">+</button><button type="button" id="zoom-out" aria-label="Отдалить карту">−</button>
+                  <span class="control-rule" aria-hidden="true"></span><button type="button" class="north-button" id="north-up" aria-label="Сориентировать карту на север"><span>N</span></button>
+                  <button type="button" id="toggle-mode" class="mode-button" aria-pressed="false">2D</button>
+                </div>
+                <footer class="map-footer">
+                  <div class="cursor-readout"><span class="field-label">Координаты курсора</span><span id="cursor-coordinates">Наведите на глобус</span></div>
+                  <div class="map-attribution"><a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">© OpenStreetMap contributors</a><span>·</span><a href="https://cesium.com/platform/cesiumjs/" target="_blank" rel="noopener noreferrer">CesiumJS</a><span>· маршруты OSRM</span></div>
+                  <div id="cesium-credits" role="region" aria-label="Атрибуция Cesium и данных карты"></div>
+                </footer>
+                <div class="loading-state" id="loading-state" role="status" aria-live="polite"><span class="loading-rule" aria-hidden="true"></span><span id="loading-copy">Загружаем 3D-глобус</span></div>
+                <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
               </div>
+
               <aside class="map-sidebar">
-                <section class="place-panel panel" aria-labelledby="place-title"><div class="panel-topline"><span>Северо-Казахстанская область</span><span class="source-tag">OSM</span></div><h2 id="place-title">Петропавл</h2><p class="place-country">Республика Казахстан</p><div class="coordinates"><span class="field-label">Координаты центра</span><strong>54.87343° N&nbsp;&nbsp; 69.15065° E</strong></div><button type="button" class="place-route-button" id="route-toggle-mobile" aria-expanded="false" aria-controls="route-panel">Построить маршрут</button><p class="panel-note">Карта показывает открытые геоданные. Она не подтверждает зоны доставки, дни или адреса выдачи сервиса.</p></section>
-                <section class="layers-panel panel" aria-labelledby="layers-title"><div class="layers-heading"><div><span class="field-label">Географические данные</span><h2 id="layers-title">Слои карты</h2></div><span class="layer-total" id="layer-total">0</span></div><label class="layer-row"><span class="layer-copy"><strong>Здания 3D</strong><small>Контуры OSM. Высота может быть оценочной.</small></span><input type="checkbox" data-layer="buildings" aria-label="Показать здания в 3D" /><span class="switch" aria-hidden="true"></span></label><label class="layer-row"><span class="layer-copy"><strong>Улицы</strong><small>Дорожная сеть OpenStreetMap.</small></span><input type="checkbox" data-layer="roads" aria-label="Показать дорожную сеть" /><span class="switch" aria-hidden="true"></span></label><label class="layer-row"><span class="layer-copy"><strong>Вода</strong><small>Реки и водоёмы из OSM.</small></span><input type="checkbox" data-layer="water" aria-label="Показать реки и водоёмы" /><span class="switch" aria-hidden="true"></span></label><div class="layer-status" id="layer-status" role="status" aria-live="polite">Выберите слой, чтобы загрузить городской фрагмент карты.</div><div class="terrain-note"><span class="terrain-mark" aria-hidden="true"></span>Рельефные данные не подключены</div></section>
+                <section class="place-panel panel" aria-labelledby="place-title">
+                  <div class="panel-topline"><span>Северо-Казахстанская область</span><span class="source-tag">OSM</span></div>
+                  <h2 id="place-title">Петропавл</h2><p class="place-country">Республика Казахстан</p>
+                  <div class="coordinates"><span class="field-label">Координаты центра</span><strong>54.87343° N&nbsp;&nbsp; 69.15065° E</strong></div>
+                  <button type="button" class="place-route-button" id="route-toggle-mobile" aria-expanded="false" aria-controls="route-panel">Построить маршрут</button>
+                  <p class="panel-note">Карта показывает открытые геоданные. Она не подтверждает зоны доставки, дни или адреса выдачи сервиса.</p>
+                </section>
+                <section class="layers-panel panel" aria-labelledby="layers-title">
+                  <div class="layers-heading"><div><span class="field-label">Географические данные</span><h2 id="layers-title">Слои карты</h2></div><span class="layer-total" id="layer-total">0</span></div>
+                  <label class="layer-row"><span class="layer-copy"><strong>Здания 3D</strong><small>Контуры OSM. Высота может быть оценочной.</small></span><input type="checkbox" data-layer="buildings" aria-label="Показать здания в 3D" /><span class="switch" aria-hidden="true"></span></label>
+                  <label class="layer-row"><span class="layer-copy"><strong>Улицы</strong><small>Дорожная сеть OpenStreetMap.</small></span><input type="checkbox" data-layer="roads" aria-label="Показать дорожную сеть" /><span class="switch" aria-hidden="true"></span></label>
+                  <label class="layer-row"><span class="layer-copy"><strong>Вода</strong><small>Реки и водоёмы из OSM.</small></span><input type="checkbox" data-layer="water" aria-label="Показать реки и водоёмы" /><span class="switch" aria-hidden="true"></span></label>
+                  <div class="layer-status" id="layer-status" role="status" aria-live="polite">Выберите слой, чтобы загрузить городской фрагмент карты.</div>
+                  <div class="terrain-note"><span class="terrain-mark" aria-hidden="true"></span>Рельефные данные не подключены</div>
+                </section>
               </aside>
             </div>
           </div>
           <p class="map-disclosure">Глобус использует OpenStreetMap и CesiumJS. Покрытие и точность зависят от открытых данных; высоты зданий могут быть приблизительными.</p>
         </section>
 
-        <section class="closing-note" aria-label="О сервисе"><p>Доставка начинается с общего заказа и заканчивается рядом с домом.</p><a href="#top">В начало <svg viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M6 10.5v-9m0 0L2.5 5M6 1.5 9.5 5" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" /></svg></a></section>
+        <section class="closing-note" aria-label="О сервисе">
+          <p>Доставка начинается с общего заказа и заканчивается рядом с домом.</p>
+          <a href="#top">В начало <svg viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M6 10.5v-9m0 0L2.5 5M6 1.5 9.5 5" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" /></svg></a>
+        </section>
       </main>
       <footer class="site-footer"><a class="footer-brand" href="#top">рядом</a><span>Регулярная доставка из районного центра в небольшие сёла.</span><a href="#map">Карта Петропавла</a></footer>
     </div>
